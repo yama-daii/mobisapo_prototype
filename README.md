@@ -32,16 +32,16 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 apiapikey の都合で鍵を保存している config.ts がこのリポジトリにないので、
 動かす際にはルートディレクトリ上に config.ts を作成し、
 
-export const API_KEY = "";
+export const API_KEY = "";<br>
 export const GOOGLE_MAPS_API_KEY = "";
 
 こちらをコピペしてもらい、自身で作成した apikey を入力してください
 上が open weathermap API
 下が google api key になります
 
-また google api key 関連で
-Maps JavaScript API
-Directions API
-Geocoding API
-Places API（任意）
+また google api key 関連で<br>
+Maps JavaScript API<br>
+Directions API<br>
+Geocoding API<br>
+Places API（任意）<br>
 を有効してもらわないと動かない可能性があるので注意
